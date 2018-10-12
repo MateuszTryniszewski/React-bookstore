@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(img/background.jpg);
+  background-size: cover;
+
+}
+.bg{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(#2e2e2e, #272727);
+
+}
+.header{
+    position: relative;
+    height: 10vh;
+    margin-bottom: 2vh;
+}
+.header h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#ffffff;
+}
+.header .link{
+ position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+    background: #28a745;
+    padding: 10px;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: bold;
+    margin-left: -50px;
+}
+.order{
+    color:#f4f4f4;
+    background-color: rgba(0, 0, 0, 0.92);
+    padding: 30px 10px;
+}
+.order h4{
+    background-color: rgba(255, 255, 255, 0.93);
+    color:#000;
+    padding: 15px 5px;
+}
+.orderView{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background-color: rgba(221, 221, 221, 0.93);
+    color:#000;
+}
+.inventory{
+    color:#f4f4f4;
+    background-color: rgba(0, 0, 0, 0.92);
+    padding: 30px 10px;
+}
+.inventory h4{
+    background-color: rgba(255, 255, 255, 0.93);
+    color:#000;
+    padding: 15px 5px;
+}
+.singleBook button{
+    margin-top: 50px;
+}
+.singleBook{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background-color: rgba(221, 221, 221, 0.93);
+    color:#000;
+}
+.adminPanel{
+    background-color: rgba(255, 255, 255, 0.10);
+    padding : 30px 10px;
+    border:15px solid rgba(255, 255, 255, 0.10);
+}
+.login{
+    color:#d4d4d4;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.95);
+    padding: 50px
+}
+#alert{
+    background-color:#078807;
+    color:#fff;
+    font-weight: bold;
+}
+.footer{
+    margin: 10px 0px;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    color:#f4f4f4;
+    background-color: rgba(0, 0, 0, 0.92);
+}
+.adminList{
+    width:100%;
+}
